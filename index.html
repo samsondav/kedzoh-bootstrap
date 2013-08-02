@@ -6,16 +6,26 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Kedzoh mLearning</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="./css/jumbotron.css" rel="stylesheet">
+    
   </head>
 
   <body>
+  
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Optionally enable responsive features in IE8 -->
+    <script src="./js/respond.js"></script>
+
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -24,24 +34,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Project name</a>
+        <a class="navbar-brand" href="#">Kedzoh</a>
         <div class="nav-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="nav-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
           </ul>
           <form class="navbar-form form-inline pull-right">
             <input type="text" placeholder="Email">
@@ -54,30 +54,37 @@
 
     <div class="container">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <!-- Main banner for the primary marketing message and call to action -->
       <div class="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-      </div>
-
-      <div class="body-content">
-
-        <!-- Example row of columns -->
         <div class="row">
-          <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <div class="col-lg-3">
+            <img src="./images/Kedzoh-iphone.png" alt="Kedzoh" width="150px"  />
+          </div>
+          <div class="col-lg-3">
+            <h1>Kedzoh</h1>
+            <p>Learn, teach and share. Any time. Any place.</p>
+            <p><a class="btn btn-primary btn-large">Available on the app store &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="body-content">  
+      
+        <!-- How it works row -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>How it Works</h2>
+            <p>Kedzoh is an employee training platform that allows employers to create 3-5 minute training sessions for their employees.    Lessons can be created easily on smartphones, tablets, and desktops.     Kedzoh offers the ability to teach employees and managers about any aspect of your business with the simple click of the “Next” button.    At the end of the lesson there are short quizzes and a rating system that show an employer which employees have taken the quizzes, what they learned from it, and the enjoyment they received from it.</p>
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
           </div>
-          <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-         </div>
-          <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+        
+        <!-- Benefits of Kedzoh row -->
+        
+        <div class="row">
+          <div class="col-lg-6 col-offset-6">
+            <h2>Benefits of Kedzoh</h2>
+            <p>The implementation of Kedzoh allows employees to be taught regardless of where they are, reducing the amount of time needed to train each individual employee.  With Kedzoh there is no need to have training course that take a week; short training lessons can be sent out multiple times per day.  Our platform will allow your company to increase training effectiveness and reduces the waste of time and money.</p>
             <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
           </div>
         </div>
